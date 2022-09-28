@@ -1,0 +1,20 @@
+{
+  "name": "mern-task_manager_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd server && npm run start",
+    "server-install": "cd server && npm install",
+    "client": "cd client && npm run start",
+    "client-install": "cd client && npm install",
+    "setup": "npm install && npm run server-install && npm run client-install",
+    "start": "concurrently \"npm run client\" \"npm run server\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.4.0"
+  }
+}
