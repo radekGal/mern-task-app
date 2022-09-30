@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "cd server && npm run start",
+    "server": "cd server && npm run dev",
+    "server:prod": "cd server && npm run start",
     "server-install": "cd server && npm install",
     "client": "cd client && npm run start",
     "client-install": "cd client && npm install",
