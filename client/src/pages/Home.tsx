@@ -1,3 +1,4 @@
+
 export const Home = () => {
   return(
     <div className="container xl:mx-auto text-center">
